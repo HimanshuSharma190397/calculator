@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="calc">
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/angular.js"></script>
+		<style>
+		</style>
+    </head>
+    <body ng-controller="calcController">
+        <div class="container" ng-controller="myController">
+			<img class="btnHts" src="img/history.png" />
+			<div class="upper">
+				<div id="header">Calculator App By Himanshu</div>
+				<div id="num"></div>
+			</div>
+			<div class="lower">
+				<ul class="lowerul">
+					<li><button id="delete">«</button></li>
+					<li><button id="square">x²</button></li>
+					<li><button id="mdls">%</button></li>
+					<li><button id="divide">/</button></li>
+					<li><button id="seven">7</button></li>
+					<li><button id="eight">8</button></li>
+					<li><button id="nine">9</button></li>
+					<li><button id="cross">x</button></li>
+					<li><button id="four">4</button></li>
+					<li><button id="five">5</button></li>
+					<li><button id="six">6</button></li>
+					<li><button id="minus">-</button></li>
+					<li><button id="one">1</button></li>
+					<li><button id="two">2</button></li>
+					<li><button id="three">3</button></li>
+					<li><button id="plus">+</button></li>
+					<li><button id="clear">C</button></li>
+					<li><button id="zero">0</button></li>
+					<li><button id="dot">.</button></li>
+					<li><button id="equal">=</button></li>
+				</ul>
+				<div class="history"></div>
+			</div>
+		</div>
+        <script type="text/javascript" src="js/index.js"> </script>
+    </body>
+</html>
